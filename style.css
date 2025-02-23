@@ -1,0 +1,30 @@
+/* Menú global */
+.menu {
+  position: absolute;
+  top: 75px;
+  left: 600px; /* Ajusta este valor para centrar o posicionar el menú según tu diseño */
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.menu a {
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a.active {
+  background-color: #160B5B;
+  color: white;
+}
+
+.menu a.moreinfo {
+  background-color: #DE1E36;
+  color: white;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Donar - Mi Jardín de Peludos</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Menú global: Este bloque puede trasladarse a style.css */
+      .menu {
+        position: absolute;
+        top: 75px;
+        left: 600px; /* Ajusta para centrar el menú en tu diseño */
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+      .menu a {
+        font-size: 20px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        color: black;
+        padding: 10px 15px;
+        border-radius: 10px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .menu a.active {
+        background-color: #160B5B;
+        color: white;
+      }
+      .menu a.moreinfo {
+        background-color: #DE1E36;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="width:1440px; height:2955px; position:relative; background:white">
+      <!-- LOGO PRINCIPAL -->
+      <img style="width:138px; height:115px; left:84px; top:43px; position:absolute"
+           src="assets/logo_main.png" alt="Logo principal" />
+
+      <!-- MENÚ SUPERIOR -->
+      <div class="menu">
+         <a href="index.html">Home</a>
+         <a href="donate.html" class="active">Donar</a>
+         <a href="volunteer.html">Voluntariado</a>
+         <a href="adopt.html">Adoptar</a>
+         <a href="moreinfo.html" class="moreinfo">Más información</a>
+      </div>
+
+      <!-- CONTENIDO PRINCIPAL DE DONATE.HTML -->
+      <div style="width:1440px; height:517px; left:0px; top:179px; position:absolute; background:rgba(54,129,211,0.09)"></div>
+      <div style="position:absolute; left:115px; top:312px; color:black; font-size:48px; font-family:Outfit; font-weight:800; letter-spacing:0.48px;">
+        Tu ayuda, <br />su oportunidad de vivir mejor
+      </div>
+      <img style="width:653px; height:554px; left:788px; top:142px; position:absolute"
+           src="https://placehold.co/653x554" alt="Imagen principal para donaciones" />
+      <div style="position:absolute; left:115px; top:456px; color:black; font-size:16px; font-family:Outfit; font-weight:400; letter-spacing:0.80px;">
+        Con tu ayuda, podemos continuar ofreciendo refugio, atención médica y mucho amor a estos maravillosos amigos de cuatro patas.
+      </div>
+      <a href="donate.html" style="position:absolute; left:115px; top:546px; display:inline-block; width:348px; height:60px; background:#DE1E36; border-radius:14px; text-decoration:none; text-align:center; line-height:60px;">
+        <span style="color:white; font-size:16px; font-family:Outfit; font-weight:900; letter-spacing:0.80px; text-shadow:0px 4px 4px rgba(0,0,0,0.25);">
+          ¡Dona y sé parte de su transformación!
+        </span>
+      </a>
+      <!-- Resto del contenido de la página de donaciones (secciones, imágenes, textos, footer, etc.) -->
+    </div>
+  </body>
+</html>
