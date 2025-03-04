@@ -1,8 +1,63 @@
-<nav class="menu">
-    <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
-    <a routerLink="/donate" routerLinkActive="active">Donar</a>
-    <a routerLink="/volunteer" routerLinkActive="active">Voluntariado</a>
-    <a routerLink="/adopt" routerLinkActive="active">Adoptar</a>
-    <a routerLink="/moreinfo" routerLinkActive="active" class="moreinfo">Más información</a>
-  </nav>
-  
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container-fluid">
+    <!-- Logo y nombre del sitio -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="assets/logo_main.png" alt="Logo principal" class="me-2 logo-menu">
+    </a>
+
+    <!-- Botón toggler para móviles -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Enlaces del menú -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/home"
+             routerLinkActive="active"
+             [routerLinkActiveOptions]="{ exact: true }">
+            Home
+          </a>
+        </li>
+        <!-- Donar -->
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/donate"
+             routerLinkActive="active">
+            Donar
+          </a>
+        </li>
+        <!-- Voluntariado -->
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/volunteer"
+             routerLinkActive="active">
+            Voluntariado
+          </a>
+        </li>
+        <!-- Adoptar -->
+        <li class="nav-item">
+          <a class="nav-link"
+             routerLink="/adopt"
+             routerLinkActive="active">
+            Adoptar
+          </a>
+        </li>
+        <!-- Más información (botón rojo) -->
+        <li class="nav-item ms-3">
+          <a class="btn btn-danger text-white"
+             routerLink="/moreinfo"
+             routerLinkActive="active">
+            Más información
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
