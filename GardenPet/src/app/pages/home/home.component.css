@@ -1,8 +1,4 @@
-/* Contenedor principal de la sección Hero */
-.hero-container {
-    /* Podrías ajustar un margen superior extra si deseas */
-    /* Ej: margin-top: 80px; */
-  }
+
   
   /* Título: "¡Aquí el amor tiene cuatro patas!" */
   .hero-title {
@@ -62,6 +58,12 @@
   /* Asegúrate de tener la fuente "Outfit" en index.html */
 * {
     font-family: 'Outfit', sans-serif;
+  }
+  
+  
+  /* Fondo azul claro: "rgba(54, 129, 211, 0.09)" */
+  .bg-lightblue {
+    background-color: rgba(54, 129, 211, 0.09);
   }
   
   /* Sección: Más de 240 perros rescatados */
@@ -131,15 +133,12 @@
     letter-spacing: 0.8px;
   }
   
-  /* Agenda tu visita - fondo gris */
+  /* Agenda tu visita - fondo gris claro */
   .agenda-bg {
     background-color: #f0f0f0; /* Ajusta el tono de gris que prefieras */
   }
   
-  /* Texto de la agenda */
-  .agenda-text {
-    /* Ajusta márgenes o tipografía si deseas */
-  }
+ 
   
   /* Botón agenda */
   .agenda-button {
@@ -165,4 +164,163 @@
     border-radius: 34px;
     object-fit: cover; /* Ajustar si la imagen no tiene la misma proporción */
   }
+
+  
+  /* Título: "Inspirar un cambio" */
+  .inspirar-title {
+    color: black;                /* #000 */
+    font-size: 36px;             /* 36px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;            /* Bold */
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    margin-bottom: 1rem;
+  }
+  
+  /* Texto: "Con tu apoyo, podemos..." */
+  .inspirar-text {
+    color: black;                /* #000 */
+    font-size: 20px;             /* 20px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    margin-bottom: 2rem;
+  }
+  
+  /* Botón: "¡Dona y sé parte de su transformación!" */
+  .inspirar-button {
+    background-color: #DE1E36;   /* Rojo */
+    color: #fff;
+    font-size: 16px;            /* 16px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.80px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 14px;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .inspirar-button:hover {
+    background-color: #c9162f;   /* Rojo más oscuro al pasar el mouse */
+  }
+  
+  /* Imagen (693×338, borde redondeado 34px) */
+  .inspirar-img {
+    width: 693px;         /* Forzar a 693px de ancho */
+    height: 338px;        /* Forzar a 338px de alto */
+    border-radius: 34px;  /* Borde redondeado */
+    object-fit: cover;    /* Ajustar si la imagen no coincide con la proporción exacta */
+  }
+
+  /* Sección final: "¡Cambia una vida..." */
+.cambia-title {
+    color: black;
+    font-size: 40px; /* 40px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px; /* 2px */
+    word-wrap: break-word;
+    margin-bottom: 1rem;
+  }
+  
+  .cambia-subtitle {
+    color: black;
+    font-size: 16px; /* 16px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px; /* 0.80px */
+    word-wrap: break-word;
+  }
+  
+
+  
+ /* Sección final contenedora (opcional para ajustes) */
+.final-section {
+    /* Ajusta margen si deseas */
+  }
+  
+  /* Título: "¡Cambia una vida..." */
+  .final-title {
+    color: black;
+    font-size: 40px; /* 40px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px; /* 2px */
+    margin-bottom: 1rem;
+  }
+  
+  /* Párrafo debajo del título */
+  .final-paragraph {
+    color: black;
+    font-size: 16px; /* 16px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px; /* 0.80px */
+  }
+  
+  /* Caja con color de fondo (azul claro, etc.) */
+  .visit-box {
+    background-color: #EEF5FF; /* Ajusta el color deseado */
+    border-radius: 14px;
+    max-width: 350px; /* Ajusta ancho si quieres */
+    /* position: relative; --> Se define en el HTML con la clase .position-relative */
+  }
+  
+  /* Imagen del perro, sobresaliendo por arriba */
+  .visit-dog {
+    width: 205px;
+    height: 187px;
+    object-fit: contain; /* O cover, según tu imagen */
+    position: absolute;
+    top: -100px; /* Ajusta para que sobresalga lo necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    box-shadow: none;
+  }
+  
+  /* Espacio extra arriba para no tapar la imagen */
+  .visit-days-title {
+    margin-top: 4.5rem; /* Ajusta para que el texto baje y no choque con la imagen */
+    color: #000;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+  }
+  
+  /* Info extra */
+  .visit-info {
+    color: #000;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.65px;
+  }
+  
+  /* Botón "¡Agenda tu visita!" */
+  .final-visit-button {
+    background-color: #1D1486;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 14px;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .final-visit-button:hover {
+    background-color: #160b5b;
+  }
+  
+  
+  
+  
+  
+  
   

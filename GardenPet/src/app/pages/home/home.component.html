@@ -25,102 +25,131 @@
         </div>
       </div>
     </div>
-    
+
   
-<!-- SECCIÓN: "Más de 240 perros rescatados" -->
-<div class="container my-5 text-center">
-  <h2 class="rescatados-title">Más de 240 perros rescatados</h2>
-  <p class="rescatados-subtitle">con los objetivos de</p>
-</div>
+    
 
-<!-- CARDS SECTION (Reducir el abandono, etc.) -->
-<div class="container mb-5">
-  <div class="row text-center">
-    <!-- CARD 1: Reducir el abandono -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm">
-        <img src="assets/perrito_abandono.png" class="card-img-top" alt="Reducir el abandono">
-        <div class="card-body">
-          <h5 class="card-title rescatados-card-title">Reducir el <br>abandono</h5>
-          <p class="card-text">Rescatamos perritas embarazadas para reducir el abandono en las calles.</p>
+    
+      <!-- SECCIÓN: "Más de 240 perros rescatados" + Fondo azul claro -->
+      <div class="bg-lightblue py-5">
+        <div class="container text-center">
+          <h2 class="rescatados-title">Más de 240 perros rescatados</h2>
+          <p class="rescatados-subtitle">con los objetivos de</p>
         </div>
-      </div>
-    </div>
-    <!-- CARD 2: Brindar segundas oportunidades -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm">
-        <img src="assets/dog_oportunation.png" class="card-img-top" alt="Brindar segundas oportunidades">
-        <div class="card-body">
-          <h5 class="card-title rescatados-card-title">Brindar segundas oportunidades</h5>
-          <p class="card-text">Cada perrito merece un hogar lleno de amor y cuidados, y trabajamos para dárselo.</p>
+    
+        <!-- CARDS SECTION (Reducir el abandono, etc.) -->
+        <div class="container mb-5">
+          <div class="row text-center">
+            <!-- CARD 1 -->
+            <div class="col-md-4 mb-4">
+              
+                <img src="assets/perrito_abandono.png" class="card-img-top" alt="Reducir el abandono">
+                <div class="card-body">
+                  <h5 class="card-title rescatados-card-title">Reducir el <br>abandono</h5>
+                  <p class="card-text">
+                    Rescatamos perritas embarazadas para reducir el abandono en las calles.
+                  </p>
+                </div>
+              
+            </div>
+            <!-- CARD 2 -->
+            <div class="col-md-4 mb-4">
+              
+                <img src="assets/dog_oportunation.png" class="card-img-top" alt="Brindar segundas oportunidades">
+                <div class="card-body">
+                  <h5 class="card-title rescatados-card-title">Brindar segundas oportunidades</h5>
+                  <p class="card-text">
+                    Cada perrito merece un hogar lleno de amor y cuidados, y trabajamos para dárselo.
+                  </p>
+                </div>
+              
+            </div>
+            <!-- CARD 3 -->
+            <div class="col-md-4 mb-4">
+              
+                <img src="assets/dog_darling.png" class="card-img-top" alt="Ofrecer atención y cariño">
+                <div class="card-body">
+                  <h5 class="card-title rescatados-card-title">Ofrecer atención<br>y cariño</h5>
+                  <p class="card-text">
+                    Nos dedicamos a su bienestar, proporcionándoles atención médica y emocional.
+                  </p>
+                </div>
+             
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <!-- CARD 3: Ofrecer atención y cariño -->
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm">
-        <img src="assets/dog_darling.png" class="card-img-top" alt="Ofrecer atención y cariño">
-        <div class="card-body">
-          <h5 class="card-title rescatados-card-title">Ofrecer atención<br>y cariño</h5>
-          <p class="card-text">Nos dedicamos a su bienestar, proporcionándoles atención médica y emocional.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- SECCIÓN: "Inspirar un cambio" -->
-<div class="container my-5">
+      
+    
+      <!-- SECCIÓN: "Inspirar un cambio" -->
+<div class="container my-5 inspirar-container">
   <div class="row align-items-center">
-    <div class="col-md-6 mb-4 mb-md-0">
-      <img src="assets/dogs.jpg" alt="Inspirar un cambio" class="img-fluid rounded">
-    </div>
+    <!-- Columna de texto a la izquierda -->
     <div class="col-md-6">
       <h2 class="inspirar-title">Inspirar un cambio</h2>
-      <p>Con tu apoyo, podemos seguir haciendo una diferencia y promover el amor y respeto hacia todos los animales.</p>
+      <p class="inspirar-text">
+        Con tu apoyo, podemos seguir haciendo una diferencia y promover el amor y respeto hacia todos los animales.
+      </p>
+      <!-- Botón: "¡Dona y sé parte de su transformación!" -->
+      <a routerLink="/donate" class="btn inspirar-button shadow">
+        ¡Dona y sé parte de su transformación!
+      </a>
+    </div>
+    <!-- Columna de la imagen a la derecha -->
+    <div class="col-md-6 text-center mt-4 mt-md-0">
+      <img src="assets/dogs.jpg" alt="Inspirar un cambio" class="inspirar-img shadow">
     </div>
   </div>
 </div>
+      </div>
 
-<!-- BOTÓN "¡Dona y sé parte de su transformación!" -->
-<div class="text-center my-5">
-  <a routerLink="/donate" class="btn transform-button shadow">
-    ¡Dona y sé parte de su transformación!
-  </a>
-</div>
-
-<!-- SECCIÓN FINAL: "¡Cambia una vida, dona y visítanos..." -->
-<div class="container text-center my-5">
-  <h2 class="cambia-title">¡Cambia una vida, dona y visítanos en Mi Jardín de Peludos!</h2>
-  <p class="cambia-subtitle">
-    En Mi Jardín de Peludos, transformamos abandono en esperanza y dolor en amor. <br>
-    Tu apoyo no solo alimenta, abriga y cuida, también regala segundas oportunidades.<br><br>
-    Visítanos y vive la magia del amor incondicional.
-  </p>
-</div>
-
-<!-- SECCIÓN: "Agenda tu visita" (fondo gris con imagen a la derecha) -->
-<div class="agenda-bg py-5">
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Texto a la izquierda -->
-      <div class="col-md-6 mb-4 mb-md-0">
-        <div class="agenda-text">
-          <h3 class="mb-3">Días de visita</h3>
-          <p>Martes, jueves, sábado y domingo<br>Horario: De 10 a.m. a 2 p.m.</p>
-          <p class="text-secondary">Por favor, agenda tu visita al menos 2 días</p>
-          <a routerLink="/schedule" class="btn agenda-button mt-3">
-            ¡Agenda tu visita!
-          </a>
+    
+      <div class="container my-5 final-section">
+        <div class="row align-items-center">
+          <!-- Columna de texto a la izquierda -->
+          <div class="col-md-6 text-md-start text-center mb-4 mb-md-0">
+            <h2 class="final-title">
+              ¡Cambia una vida, dona y visítanos en Mi Jardín de Peludos!
+            </h2>
+            <p class="final-paragraph">
+              En Mi Jardín de Peludos, transformamos abandono en esperanza y dolor en amor. <br>
+              Tu apoyo no solo alimenta, abriga y cuida, también regala segundas oportunidades. <br><br>
+              Visítanos y vive la magia del amor incondicional.
+            </p>
+          </div>
+      
+          <!-- Columna con la "cajita" a la derecha -->
+          <div class="col-md-6 text-center">
+            <div class="visit-box mx-auto p-4 position-relative">
+              <!-- Imagen del perro (saldrá por arriba del cuadro) -->
+              <img
+                src="assets/dog_visit.png"
+                alt="Días de visita"
+                class="visit-dog"
+              />
+              <!-- Contenido dentro del cuadro -->
+              <h4 class="mt-5 visit-days-title">
+                Días de visita:<br>
+                Martes, jueves, sábado y domingo <br>
+                Horario: De 10 a.m. a 2 p.m.
+              </h4>
+              <p class="visit-info">
+                Por favor, agenda tu visita al menos 2 días
+              </p>
+              <a routerLink="/schedule" class="btn final-visit-button mt-3">
+                ¡Agenda tu visita!
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- Imagen a la derecha (693x338, borde redondeado 34px) -->
-      <div class="col-md-6 text-center">
-        <img src="assets/dog_visit.png" alt="Visita al refugio" class="agenda-img shadow">
-      </div>
-    </div>
-  </div>
-</div>
+      
+
+
+    
+      <!-- FOOTER (opcional) -->
+      <!-- ... tu footer ... -->
+    
+    
  
   
     <!-- FOOTER -->
