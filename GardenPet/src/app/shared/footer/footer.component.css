@@ -1,0 +1,118 @@
+.footer-container {
+    background-color: #E5ECF5; /* Ajusta si deseas otro color de fondo */
+    padding: 2rem 0;
+  }
+  
+/* Logo (115×96) */
+.footer-logo {
+    width: 115px;
+    height: 96px;
+    object-fit: contain;
+  }
+  
+  /* Título: "Mi jardín de peludos" */
+  .footer-title {
+    color: black;
+    font-size: 16px; /* Ajusta si deseas mayor tamaño */
+    font-weight: 800; /* Negrita */
+    letter-spacing: 0.14px;
+    margin-bottom: 0.25rem; /* Espacio corto debajo del título */
+  }
+  
+  /* Texto descriptivo */
+  .footer-desc {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    margin-bottom: 0; /* Quita margen extra si deseas un aspecto más compacto */
+  }
+  
+  .footer-social {
+    gap: 1rem; /* Espacio horizontal entre iconos */
+  }
+  
+  /* Cada icono: 24×24 px */
+  .footer-social-icon {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+  }
+  
+  .footer-social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Ajusta el <svg> al 100% del contenedor */
+  .footer-social-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    fill: black;
+    transition: fill 0.3s;
+  }
+  
+  /* Hover: cambia color del icono */
+  .footer-social-icon:hover svg {
+    fill: #1D1486;
+  }
+  
+  .footer-icon {
+    width: 20px;  /* Ajusta según tus SVG */
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Icono + título */
+.footer-title {
+    color: black;
+    font-size: 16px; /* Ajusta según tu diseño */
+    font-weight: 800;
+    letter-spacing: 0.14px;
+  }
+  
+  /* Texto de dirección */
+  .footer-text {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    margin-bottom: 0; /* Si quieres espacio extra, ajusta este valor */
+  }
+  
+  /* Contenedor del icono */
+  .footer-icon {
+    width: 20px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Ajusta el iframe si quieres que sea responsivo:
+     max-width: 444px; width: 100%; height: auto; */
+     iframe {
+        max-width: 444px;
+        width: 100%;
+        height: auto;
+      }
+  
+  .footer-line {
+    border: 1px solid #1D1486; /* Ajusta color de la línea */
+  }
+  
+  .footer-copy {
+    color: black;
+    font-size: 12px; /* 12px */
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    word-wrap: break-word;
+  }
+  
