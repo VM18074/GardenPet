@@ -1,0 +1,236 @@
+/* HERO */
+/* Fondo de la sección Hero */
+/* Fondo de la sección Hero */
+.adopt-hero-section {
+  background-color: rgba(54, 129, 211, 0.09); /* #3681D317 */
+  width: 100%;
+  /* Podrías usar padding: etc. si deseas más espacio vertical */
+}
+
+/* Título: “¡Adopta!” */
+.adopt-hero-title {
+  color: #160B5B;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0.48px;
+  margin-bottom: 0;
+}
+
+/* Subtítulo: “¿Tienes espacio...” */
+.adopt-hero-subtitle {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 0;
+}
+
+/* Texto de descripción */
+.adopt-hero-desc {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  margin-top: 1rem;
+}
+
+/* Contenedor que recorta la imagen (alto 457px) */
+.adopt-dog-crop {
+  width: auto;         /* Ajusta si quieres forzar un ancho */
+  height: 457px;       /* Coincide con la altura de la sección */
+  overflow: hidden;    /* Oculta la parte sobrante */
+  position: relative;  /* Opcional, si deseas posicionar la imagen internamente */
+}
+
+/* Imagen del perro */
+.adopt-hero-img {
+  width: auto;
+  height: 100%;              /* Ocupa toda la altura del contenedor */
+  object-fit: cover;         /* Cubre el contenedor, recortando si es necesario */
+  object-position: bottom;   /* Alinea la parte inferior de la imagen */
+  display: block;
+}
+
+  
+  
+  
+ /* Título de la sección: "¿Cómo es el proceso de adopción?" */
+.adopt-process-title {
+  color: black;
+  font-size: 36px; /* 36px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  word-wrap: break-word;
+}
+
+/* Imagen de cada paso (149×149, con sombra y blur) */
+.adopt-paw-img {
+  width: 100%; 
+  height: 100%; 
+  max-width: 149px;   /* Ajusta para forzar la dimensión horizontal */
+  max-height: 149px;  /* Ajusta para la vertical */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  object-fit: cover;  /* Ajusta cómo se recorta si la imagen no es cuadrada */
+  border-radius: 10px; /* opcional si quieres bordes redondeados */
+}
+
+/* Subtítulo de cada paso (Ej: "Entrevista Inicial") */
+.adopt-step-subtitle {
+  color: black;
+  font-size: 24px; /* 24px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  word-wrap: break-word;
+  margin-bottom: 0.5rem; 
+}
+
+/* Texto descriptivo de cada paso */
+.adopt-step-text {
+  color: black;
+  font-size: 16px; /* 16px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  word-wrap: break-word;
+}
+
+/* Contenedor con fondo y borde redondeado */
+/* Contenedor con fondo y borde redondeado */
+.adopt-time-box {
+  background: rgba(54, 129, 211, 0.09);
+  border-radius: 33px;
+  text-align: center;
+  height: 311px; 
+  /* Aumenta el padding para que el texto baje */
+  padding: 2rem 1rem; /* Por ejemplo, 2rem arriba/abajo y 1rem a los lados */
+}
+
+/* Título: “¿Y si el perrito necesita tiempo?” */
+.adopt-time-title {
+  color: black;
+  font-size: 36px; /* 36px */
+  font-weight: 700;
+  letter-spacing: 1.8px; /* 1.80px */
+  margin-bottom: 0; /* Ajusta si deseas */
+  margin-top: 2.5rem; /* Espacio extra arriba del título */
+  /* Quita 'position: center;' - no es válido */
+}
+
+/* Texto de la sección */
+.adopt-time-text {
+  color: black;
+  font-size: 16px; /* 16px */
+  font-weight: 400;
+  letter-spacing: 0.8px; /* 0.80px */
+  max-width: 520px; /* Limita el ancho del texto si deseas */
+  margin: 0 auto;   /* Centra el texto dentro del recuadro */
+  /* Quita 'position: center;' - no es válido */
+}
+
+/* Imagen (opcionalmente forzada a un tamaño) */
+.adopt-time-img {
+  width: auto;
+  height: auto;
+  
+     width: 308px;
+     height: 311px; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  margin: 0 auto; /* Centra la imagen en su columna */
+}
+
+
+/* Título de la sección: "Seguimiento posadopción" */
+.adopt-post-title {
+  color: black;
+  font-size: 36px; /* 36px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;  /* Bold */
+  letter-spacing: 1.8px; /* 1.80px */
+  word-wrap: break-word;
+}
+
+/* Ícono (111×111) */
+.adopt-post-icon {
+  width: 111px;
+  height: 111px;
+  object-fit: cover; /* Ajusta según tu imagen */
+  display: block;    /* Evita espacios extras */
+  margin: 0 auto;    /* Centra el ícono */
+}
+
+/* Subtítulo de cada tarjeta (24px, bold) */
+.adopt-post-subtitle {
+  color: black;
+  font-size: 24px; /* 24px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.2px; /* 1.20px */
+  word-wrap: break-word;
+  margin-bottom: 0.5rem;
+}
+
+/* Texto descriptivo de cada tarjeta (16px, normal) */
+.adopt-post-text {
+  color: black;
+  font-size: 16px; /* 16px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.8px; /* 0.80px */
+  word-wrap: break-word;
+  margin-bottom: 0;
+}
+
+  
+ /* Título: “¿Listo para comenzar?” */
+.final-start-title {
+  color: black;
+  font-size: 36px;       /* 36px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.8px; /* 1.80px */
+  margin-bottom: 0;      /* Ajusta según prefieras */
+}
+
+/* Párrafo explicativo */
+.final-start-paragraph {
+  color: black;
+  font-size: 16px;       /* 16px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.8px; /* 0.80px */
+  margin-top: 1rem;
+}
+
+/* Botón rojo “¡Adopta hoy...” */
+.final-start-button {
+  background-color: #DE1E36;  /* Rojo */
+  color: #fff;
+  font-size: 16px;           /* 16px */
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;          /* Bold */
+  letter-spacing: 0.8px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;        /* Ajusta la curvatura */
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.final-start-button:hover {
+  background-color: #c9162f; /* Un rojo más oscuro */
+}
+
+/* Imagen del perro (793×582) */
+.final-start-img {
+  max-width: 793px;  /* Limita a 793px en pantallas grandes */
+  width: 100%;       /* Se adapta en pantallas pequeñas */
+  height: auto;      /* Mantiene proporción */
+  bottom: 0;           /* Ancla al fondo del contenedor */
+  margin-bottom: -3rem; 
+
+}
