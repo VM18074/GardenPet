@@ -1,11 +1,7 @@
-
-
-<!-- SECCIÓN HERO (fondo + altura fija 457px) -->
-<div class="adopt-hero-section">
-  <div class="container">
-    <!-- min-height de 457px en la row -->
-    <div class="row align-items-center" style="min-height: 457px;">
-      
+<!-- SECCIÓN HERO (fondo + altura fija en desktop) -->
+<div class="adopt-hero-section position-relative hero-fixed-height">
+  <div class="container h-100">
+    <div class="row align-items-center h-100">
       <!-- Columna de texto -->
       <div class="col-md-6">
         <h1 class="adopt-hero-title">
@@ -20,52 +16,39 @@
           ti y tu nuevo compañero.
         </p>
       </div>
-      
-      <!-- Columna de la imagen -->
-      <!-- Usamos d-flex y align-items-end para que el contenedor de la imagen toque el borde inferior -->
-      <div class="col-md-6 text-center mt-4 mt-md-0 d-flex align-items-end justify-content-center">
-        <!-- Contenedor que recorta la imagen (mismo alto: 457px) -->
-        <div class="adopt-dog-crop">
-          <img
-            src="assets/adopt1.png"
-            alt="Perrito adoptable"
-            class="adopt-hero-img"
-          />
-        </div>
-      </div>
-
+      <!-- Columna vacía para la imagen -->
+      <div class="col-md-6"></div>
     </div>
   </div>
+  <!-- Imagen anclada al fondo y al borde derecho en pantallas >= md -->
+  <img
+    src="assets/adopt1.png"
+    alt="Perrito adoptable"
+    class="adopt-hero-img"
+  />
 </div>
 
-  
-  
-    <!-- SECCIÓN: "¿Cómo es el proceso de adopción?" -->
+
+<!-- SECCIÓN: "¿Cómo es el proceso de adopción?" -->
 <div class="container my-5 text-center">
-  <!-- Título de la sección -->
   <h2 class="adopt-process-title">
     ¿Cómo es el proceso de adopción?
   </h2>
-
   <div class="row mt-4">
     <!-- Paso 1 -->
     <div class="col-md-4 mb-4">
-      <!-- Imagen con sombra y blur -->
       <img
         src="assets/adopt2.png"
         alt="Paw icon"
         class="adopt-paw-img mb-3"
       />
-      <!-- Subtítulo: "Entrevista Inicial" -->
       <h3 class="adopt-step-subtitle">
         Entrevista Inicial
       </h3>
-      <!-- Texto: "Queremos conocerte un poco..." -->
       <p class="adopt-step-text">
         Queremos conocerte un poco y entender tus motivaciones <br/>para adoptar.
       </p>
     </div>
-
     <!-- Paso 2 -->
     <div class="col-md-4 mb-4">
       <img
@@ -77,10 +60,9 @@
         Inspección del entorno
       </h3>
       <p class="adopt-step-text">
-        Revisamos que el espacio sea adecuado y seguro para tu futuro amigo.
+        Nos aseguramos de que el espacio sea cómodo y seguro para el peludito
       </p>
     </div>
-
     <!-- Paso 3 -->
     <div class="col-md-4 mb-4">
       <img
@@ -92,33 +74,29 @@
         Charla sobre la adopción
       </h3>
       <p class="adopt-step-text">
-        Te explicamos cuidados, alimentación, vacunas y el compromiso que adquieres.
+        Si es tu primera vez adoptando, te brindamos consejos útiles para que la experiencia sea maravillosa.
       </p>
     </div>
   </div>
 </div>
 
-  
-   <!-- SECCIÓN: "¿Y si el perrito necesita tiempo?" -->
+<!-- SECCIÓN: "¿Y si el perrito necesita tiempo?" -->
 <div class="container my-5">
-  <!-- Justificamos contenido al centro en pantallas grandes -->
   <div class="row align-items-center justify-content-center">
-    
-    <!-- Columna del recuadro con texto (centrada) -->
+    <!-- Columna del recuadro con texto -->
     <div class="col-md-8 text-center">
       <div class="adopt-time-box p-4">
         <h2 class="adopt-time-title">
           ¿Y si el perrito necesita tiempo?
         </h2>
         <p class="adopt-time-text mt-3">
-          Ofrecemos una semana de adaptación. Si el peludito no se siente cómodo 
-          o la familia no logra una conexión, pueden devolverlo. 
+          Ofrecemos una semana de adaptación. Si el peludito no se siente cómodo
+          o la familia no logra una conexión, pueden devolverlo.
           Nuestro objetivo es que tanto tú como el peludito estén felices y tranquilos.
         </p>
       </div>
     </div>
-
-    <!-- Columna de la imagen (perro fuera del recuadro) -->
+    <!-- Columna de la imagen (fuera del recuadro) -->
     <div class="col-md-4 text-center mt-4 mt-md-0">
       <img
         src="assets/adopt5.png"
@@ -129,14 +107,11 @@
   </div>
 </div>
 
-  
-
-  
-    <!-- SECCIÓN: "Seguimiento posadopción" -->
+<!-- SECCIÓN: "Seguimiento posadopción" -->
 <div class="container my-5 text-center">
-  <!-- Título de la sección -->
-  <h2 class="adopt-post-title">Seguimiento posadopción</h2>
-
+  <h2 class="adopt-post-title">
+    Seguimiento posadopción
+  </h2>
   <div class="row mt-4">
     <!-- Tarjeta 1 -->
     <div class="col-md-4 mb-4">
@@ -152,7 +127,6 @@
         Se mandan fotos dos veces a la semana para ver cómo va la adaptación.
       </p>
     </div>
-
     <!-- Tarjeta 2 -->
     <div class="col-md-4 mb-4">
       <img
@@ -167,7 +141,6 @@
         Actualización veterinaria de vacunas y exámenes, para asegurarnos de que el peludito esté sano.
       </p>
     </div>
-
     <!-- Tarjeta 3 -->
     <div class="col-md-4 mb-4">
       <img
@@ -185,36 +158,32 @@
   </div>
 </div>
 
-  
-    <!-- SECCIÓN FINAL: "¿Listo para comenzar?" -->
-<div class="container my-5">
-  <div class="row align-items-center">
-    
-    <!-- Columna de texto y botón -->
-    <div class="col-md-6 text-md-start text-center">
-      <h2 class="final-start-title">
-        ¿Listo para comenzar?
-      </h2>
-      <p class="final-start-paragraph mt-3">
-        Estamos aquí para acompañarte en esta hermosa experiencia de adoptar. 
-        ¡Haz tu hogar más feliz con un amigo de cuatro patas!
-      </p>
-      <!-- Botón que lleva a moreinfo (o donde desees) -->
-      <a routerLink="/moreinfo" class="btn final-start-button mt-4">
-        ¡Adopta hoy y cambia una vida!
-      </a>
+<!-- SECCIÓN FINAL: "¿Listo para comenzar?" -->
+<div class="final-start-section hero-fixed-final position-relative">
+  <div class="container h-100">
+    <div class="row align-items-center h-100">
+      <!-- Columna de texto y botón -->
+      <div class="col-md-6 text-md-start text-center">
+        <h2 class="final-start-title">
+          ¿Listo para comenzar?
+        </h2>
+        <p class="final-start-paragraph mt-3">
+          Estamos aquí para acompañarte en esta hermosa experiencia de adoptar.
+          ¡Haz tu hogar más feliz con un amigo de cuatro patas!
+        </p>
+        <a routerLink="/moreinfo" class="btn final-start-button mt-4">
+          ¡Adopta hoy y cambia una vida!
+        </a>
+      </div>
+      <!-- Columna vacía para reservar espacio en escritorio -->
+      <div class="col-md-6"></div>
     </div>
-
-    <!-- Columna de la imagen (793×582) -->
-    <div class="col-md-6 text-center mt-4 mt-md-0">
-      <img
-        src="assets/adopt7.png"
-        alt="Perrito en adopción"
-        class="final-start-img img-fluid"
-      />
-    </div>
-
   </div>
+  <!-- Imagen anclada al fondo y al borde derecho en escritorio -->
+  <img
+    src="assets/adopt7.png"
+    alt="Perrito en adopción"
+    class="final-start-img"
+  />
+</div>
 
-
-  

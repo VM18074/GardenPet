@@ -51,6 +51,6 @@
 
 /* Si quieres que el botón "Más información" también se ponga azul al estar activo */
 .btn-danger.active {
-  background-color: #0d6efd !important;
+  background-color: #F7B510 !important;
   color: #fff !important;
 }

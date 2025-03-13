@@ -1,0 +1,448 @@
+/* =====================
+   SECCIÓN HERO (Donaciones)
+   ===================== */
+   .donate-hero-section {
+    background-color: rgba(54, 129, 211, 0.09); /* #3681D317 */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* La altura se define inline en el HTML (ej. 554px en desktop) */
+  }
+  
+  .donate-hero-title {
+    color: black;
+    font-size: clamp(2rem, 5vw, 3rem); /* Aproximadamente 48px en desktop */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.48px;
+    margin-bottom: 0;
+  }
+  
+  .donate-hero-subtitle {
+    color: black;
+    font-size: clamp(1rem, 3vw, 1.125rem); /* ~16px en desktop */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-top: 1rem;
+  }
+  
+  .donate-hero-button {
+    background-color: #DE1E36;
+    color: white;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+  .donate-hero-button:hover {
+    background-color: #c9162f;
+  }
+  
+/* ======================
+   SECCIÓN HERO (Donaciones)
+   ====================== */
+
+/* Altura fija en desktop (554px) + posición relativa para la imagen absolute */
+.donate-hero-section.hero-fixed-height {
+    height: 554px;     /* Alto fijo solo en pantallas >=768px */
+    position: relative; 
+    overflow: hidden;  /* Oculta si la imagen excede el contenedor */
+  }
+  
+  /* Imagen anclada en desktop */
+  .donate-hero-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 653px;   /* Ajusta al tamaño real de tu imagen */
+    height: 554px;  /* Para coincidir con la altura del contenedor */
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* =====================
+     SECCIÓN: "¿Qué puedes donar?"
+     ===================== */
+  .donate-what-title {
+    color: black;
+    font-size: clamp(1.8rem, 4vw, 2.25rem); /* ~36px en desktop */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+    word-wrap: break-word;
+  }
+  
+  .donate-what-img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  
+  .donate-what-item-title {
+    color: black;
+    font-size: clamp(1.25rem, 3.5vw, 1.5rem); /* ~20px en desktop */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    margin-bottom: 0.5rem;
+  }
+  
+  .donate-what-item-text {
+    color: black;
+    font-size: clamp(1rem, 3vw, 1.125rem); /* ~16px en desktop */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    word-wrap: break-word;
+    margin-bottom: 0;
+  }
+  
+  /* =====================
+     SECCIÓN: "Donaciones económicas"
+     ===================== */
+  .donate-econ-section {
+    position: relative;
+    width: 100%;
+    /* La altura y fondo se definen inline en el HTML (por ejemplo, 604px y fondo rgba) */
+  }
+  
+  .donate-econ-title {
+    color: black;
+    font-size: clamp(1.8rem, 4vw, 2.25rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    margin-bottom: 0.5rem;
+  }
+  
+  .donate-econ-subtitle {
+    color: black;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    word-wrap: break-word;
+    margin-bottom: 1rem;
+  }
+  
+  .donate-econ-box {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .donate-econ-bank-title,
+  .donate-econ-digital-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .donate-econ-bank-title {
+    color: #1D1486;
+    font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  .donate-econ-digital-title {
+    color: #160B5B;
+    font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  .donate-econ-bank-text {
+    color: black;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+  }
+  
+  .donate-econ-digital-text {
+    color: black;
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.13px;
+  }
+  
+  .donate-econ-button {
+    background-color: #DE1E36;
+    color: #fff;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  .donate-econ-button:hover {
+    background-color: #c9162f;
+  }
+  
+  .donate-econ-img {
+    position: absolute;
+    bottom: 0;
+    right: -50px; /* Empuja la imagen 50px a la derecha */
+    width: 583px;
+    height: 740px;
+    object-fit: cover;
+  }
+  
+  /* =====================
+     SECCIÓN: "Apadrina un amigo peludo y transforma su mundo"
+     ===================== */
+  .donate-apadrina-title {
+    color: black;
+    font-size: clamp(1.8rem, 4vw, 2.25rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+  }
+  
+  .donate-apadrina-subtitle {
+    color: black;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    word-wrap: break-word;
+  }
+  
+  .donate-apadrina-button {
+    background-color: #DE1E36;
+    color: #fff;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  .donate-apadrina-button:hover {
+    background-color: #c9162f;
+  }
+  
+  .apadrina-box {
+    border-radius: 35px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .apadrina-amount {
+    color: black;
+    font-size: clamp(2.5rem, 6vw, 3rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.48px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .apadrina-monthly {
+    color: black;
+    font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .apadrina-subdesc {
+    color: black;
+    font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  
+  /* =====================
+     SECCIÓN FINAL: "¿Listo para comenzar?"
+     ===================== */
+  .final-start-title {
+    color: black;
+    font-size: clamp(1.8rem, 4vw, 2.25rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    margin-bottom: 0;
+  }
+  
+  .final-start-paragraph {
+    color: black;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-top: 1rem;
+  }
+  
+  .final-start-button {
+    background-color: #DE1E36;
+    color: #fff;
+    font-size: clamp(1rem, 3vw, 1.125rem);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  .final-start-button:hover {
+    background-color: #c9162f;
+  }
+  
+  .final-start-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 793px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* =====================
+   MEDIA QUERIES PARA RESPONSIVIDAD
+   ===================== */
+
+/* 
+   1) Para pantallas pequeñas (menos de 768px):
+      - Quitamos altura fija de las secciones
+      - Ponemos la imagen en posición estática
+      - Ajustamos tamaños de texto y cajas 
+*/
+@media (max-width: 767.98px) {
+
+    .donate-hero-section.hero-fixed-height {
+        height: auto !important;  /* auto en móviles */
+        padding: 2rem 1rem;       /* añade padding para separar */
+      }
+      /* La imagen se vuelve estática y ocupa el ancho completo debajo del texto */
+      .donate-hero-img {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 1rem auto 0 auto;  /* Se centra debajo del texto */
+        max-width: 400px;          /* Limita el ancho en móviles (opcional) */
+      }
+    
+      /* Sección Donaciones Económicas en móviles */
+      .donate-econ-section {
+        height: auto !important;   /* Quita la altura fija en móviles */
+        padding: 2rem 1rem;
+        position: relative;
+      }
+    
+      /* Imagen se vuelve estática, 100% de ancho */
+      .donate-econ-img {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 1rem;          /* Separación desde el contenido */
+        /* Al ser estática, quedará al final de la sección,
+           debajo del cuadro blanco y texto */
+      }
+    .donate-hero-title {
+      font-size: 2rem;
+    }
+    .donate-hero-subtitle {
+      font-size: 1rem;
+    }
+    .donate-hero-button {
+      font-size: 1rem;
+    }
+  
+    
+    .donate-econ-box {
+      width: 100% !important;
+      height: auto !important;
+      padding: 1rem;     /* Menos relleno para móviles */
+    }
+  
+    /* Sección "Apadrina un amigo...": 
+       Los recuadros se ajustan al ancho y se apilan verticalmente */
+    .apadrina-box {
+      width: 100% !important;
+      height: auto !important;
+      margin-bottom: 1rem; /* Espacio entre recuadros */
+    }
+  
+    /* Sección final (si tuvieras imagen anclada) */
+    .final-start-img {
+      position: static !important;
+      margin-top: 1rem;
+      bottom: 0;
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  
+  /* 
+     2) Para pantallas medianas (entre 768px y 991.98px):
+        - Ajustamos tamaños de texto para que no se vean muy grandes
+  */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .donate-hero-title {
+      font-size: 2.5rem;
+    }
+    .donate-hero-subtitle {
+      font-size: 1.125rem;
+    }
+    .donate-hero-button {
+      font-size: 1.125rem;
+    }
+    .donate-what-title {
+      font-size: 2rem;
+    }
+    .donate-what-item-title {
+      font-size: 1.125rem;
+    }
+    .donate-what-item-text {
+      font-size: 1rem;
+    }
+    .donate-econ-title {
+      font-size: 2rem;
+    }
+    .donate-econ-subtitle {
+      font-size: 1rem;
+    }
+    .donate-apadrina-title {
+      font-size: 2rem;
+    }
+    .final-start-title {
+      font-size: 2rem;
+    }
+  }
+  
+  /* =====================
+     FIN CSS
+     ===================== */
+  

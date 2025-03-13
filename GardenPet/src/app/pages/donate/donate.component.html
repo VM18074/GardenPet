@@ -1,1 +1,167 @@
-<p>donate works!</p>
+<div class="container-fluid p-0 bg-white">
+
+    <!-- SECCIÓN HERO: "Tu ayuda, su oportunidad de vivir mejor" -->
+<div class="donate-hero-section hero-fixed-height">
+    <!-- Contenedor con altura fija en desktop (554px) -->
+    <div class="container h-100">
+      <div class="row align-items-center h-100">
+        <!-- Columna de texto -->
+        <div class="col-md-6">
+          <h1 class="donate-hero-title">
+            Tu ayuda, <br/>su oportunidad de vivir mejor
+          </h1>
+          <p class="donate-hero-subtitle mt-3">
+            Con tu ayuda, podemos continuar ofreciendo refugio, atención médica 
+            y mucho amor a estos maravillosos amigos de cuatro patas.
+          </p>
+          <!-- Botón principal de donación -->
+          <a routerLink="/moreinfo" class="btn donate-hero-button mt-4">
+            ¡Dona y sé parte de su transformación!
+          </a>
+        </div>
+        <!-- Columna derecha vacía para reservar espacio a la imagen en desktop -->
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+    <!-- Imagen anclada al fondo y al borde derecho en desktop -->
+    <img 
+      src="assets/donate1.png"
+      alt="Imagen principal de donaciones"
+      class="donate-hero-img"
+    />
+  </div>
+  
+    <!-- Fin de la sección HERO -->
+  
+    <!-- SECCIÓN: "¿Qué puedes donar?" -->
+    <div class="container my-5 text-center">
+      <!-- Título de la sección -->
+      <h2 class="donate-what-title">¿Qué puedes donar?</h2>
+      <div class="row mt-4">
+        <!-- Columna 1: Ropa, mantas, juguetes, sábanas -->
+        <div class="col-md-6 mb-4">
+          <img src="assets/donate2.png" alt="Artículos para donar" class="donate-what-img mb-3">
+          <h3 class="donate-what-item-title">
+            Ropa en buen estado, juguetes, mantas y sábanas
+          </h3>
+          <p class="donate-what-item-text mt-2">
+            Usamos estos artículos para crear mercaditos, y el 100% de las ventas va directamente a cubrir las necesidades del refugio.
+          </p>
+        </div>
+        <!-- Columna 2: Alimento para perros -->
+        <div class="col-md-6 mb-4">
+          <img src="assets/donate3.png" alt="Alimento para perros" class="donate-what-img mb-3">
+          <h3 class="donate-what-item-title">
+            Alimento para perros
+          </h3>
+          <p class="donate-what-item-text mt-2">
+            ¡Cualquier marca y cantidad son bienvenidas! Las croquetas son siempre una de nuestras mayores necesidades.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de la sección "¿Qué puedes donar?" -->
+  
+    <!-- SECCIÓN: "Donaciones económicas" con fondo #3681D317 -->
+    <div class="donate-econ-section position-relative" style="width: 100%; height: 604px; background: rgba(54, 129, 211, 0.09);">
+      <!-- Contenedor interno para el texto y el cuadro blanco -->
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-md-6">
+            <!-- Título -->
+            <h2 class="donate-econ-title">Donaciones económicas</h2>
+            <!-- Subtítulo -->
+            <p class="donate-econ-subtitle mt-3">
+              Si prefieres hacer una donación económica, puedes hacerlo de manera rápida y segura a través de nuestros medios electrónicos.
+            </p>
+            <!-- Cuadro blanco con información bancaria y digital -->
+            <div class="donate-econ-box mx-auto mt-4 p-3" style="width: 713px; height: 207px; background: #fff;">
+              <div class="row h-100">
+                <!-- Columna: Transferencias Bancarias -->
+                <div class="col-md-6 text-center d-flex flex-column justify-content-center">
+                  <h3 class="donate-econ-bank-title mb-2">Transferencias Bancarias</h3>
+                  <!-- Logo bancario -->
+                  <div class="my-2">
+                    <img src="assets/agricola.png" alt="Logo bancario" style="width: 174px; height: 39px;">
+                  </div>
+                  <p class="donate-econ-bank-text mt-2 mb-0">
+                    Cuenta de Ahorros: 003790614683 <br/>
+                    Titular: Javier Ernesto Pinedo Leiva
+                  </p>
+                </div>
+                <!-- Columna: Donaciones digitales -->
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                  <h3 class="donate-econ-digital-title mb-2">Donaciones digitales</h3>
+                  <!-- Contenedor para logos y textos -->
+                  <div class="my-2 d-flex align-items-start justify-content-center gap-4">
+                    <!-- Bloque 1: PayPal y correo -->
+                    <div class="text-center">
+                      <img src="assets/paypal.png" alt="PayPal" style="width: 65px; height: 62px;">
+                      <p class="donate-econ-digital-text mt-2 mb-0">
+                        mjp.contab&#64;gmail.com
+                      </p>
+                    </div>
+                    <!-- Bloque 2: Chivo y DUI -->
+                    <div class="text-center">
+                      <img src="assets/chivo.png" alt="Chivo" style="width: 112px; height: 51px;">
+                      <p class="donate-econ-digital-text mt-2 mb-0">
+                        DUI: 01231496-0
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Botón de donación directa -->
+            <a routerLink="/moreinfo" class="btn donate-econ-button mt-4 mx-auto d-block" style="width: fit-content;">
+              Dona ahora y salva vidas
+            </a>
+          </div>
+          <!-- Columna vacía para espacio (si se desea) -->
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+      <!-- Imagen anclada al borde derecho e inferior -->
+      <img src="assets/donate4.png" alt="Perrito agradecido" class="donate-econ-img">
+    </div>
+    <!-- Fin de la sección "Donaciones económicas" -->
+  
+    <!-- SECCIÓN: "Apadrina un amigo peludo y transforma su mundo" -->
+    <div class="container my-5">
+      <div class="row align-items-center justify-content-center">
+        <!-- Columna 1: Texto y botón -->
+        <div class="col-md-4 mb-4 text-md-start text-center">
+          <h2 class="donate-apadrina-title">
+            Apadrina un amigo peludo y transforma su mundo
+          </h2>
+          <p class="donate-apadrina-subtitle mt-3">
+            ¡Establece un vínculo único con un peludito! Apadrina con una pequeña donación mensual y ayuda a garantizar su cuidado y bienestar.
+          </p>
+          <a routerLink="/moreinfo" class="btn donate-apadrina-button mt-4">
+            Apadrina un peludito
+          </a>
+        </div>
+        <!-- Columna 2: Cuadro para plan $10.00 -->
+        <div class="col-md-4 mb-4">
+          <div class="apadrina-box mx-auto p-3 d-flex flex-column align-items-center" style="width: 307px; height: 329px; background: rgba(54,129,211,0.09); border-radius: 35px;">
+            <img src="assets/donate5.png" alt="Perrito plan $10" style="width: 140px; height: 140px;">
+            <h3 class="apadrina-amount mt-3">$10.00</h3>
+            <p class="apadrina-monthly mb-1">Mensuales</p>
+            <p class="apadrina-subdesc mb-0">Apadrinamiento general</p>
+          </div>
+        </div>
+        <!-- Columna 3: Cuadro para plan $5.00 -->
+        <div class="col-md-4 mb-4">
+          <div class="apadrina-box mx-auto p-3 d-flex flex-column align-items-center" style="width: 307px; height: 329px; background: rgba(54,129,211,0.09); border-radius: 35px;">
+            <img src="assets/donate6.png" alt="Perrito plan $5" style="width: 153px; height: 153px;">
+            <h3 class="apadrina-amount mt-3">$5.00</h3>
+            <p class="apadrina-monthly mb-1">Mensuales</p>
+            <p class="apadrina-subdesc mb-0">Apadrinamiento individual</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de la sección "Apadrina un amigo peludo y transforma su mundo" -->
+  
+  </div>
+  
