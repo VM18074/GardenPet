@@ -82,13 +82,18 @@
                   <h3 class="donate-econ-bank-title mb-2">Transferencias Bancarias</h3>
                   <!-- Logo bancario -->
                   <div class="my-2">
-                    <img src="assets/agricola.png" alt="Logo bancario" style="width: 174px; height: 39px;">
+                    <img 
+                      src="assets/agricola.png" 
+                      alt="Logo bancario" 
+                      (click)="copyText('003790614683')" 
+                      style="width: 174px; height: 39px; cursor: pointer;">
                   </div>
                   <p class="donate-econ-bank-text mt-2 mb-0">
                     Cuenta de Ahorros: 003790614683 <br/>
                     Titular: Javier Ernesto Pinedo Leiva
                   </p>
                 </div>
+                
                 <!-- Columna: Donaciones digitales -->
                 <div class="col-md-6 d-flex flex-column justify-content-center">
                   <h3 class="donate-econ-digital-title mb-2">Donaciones digitales</h3>
@@ -96,18 +101,27 @@
                   <div class="my-2 d-flex align-items-start justify-content-center gap-4">
                     <!-- Bloque 1: PayPal y correo -->
                     <div class="text-center">
-                      <img src="assets/paypal.png" alt="PayPal" style="width: 65px; height: 62px;">
+                      <img 
+                        src="assets/paypal.png" 
+                        alt="PayPal" 
+                        (click)="copyText('mjp.contab@gmail.com')" 
+                        style="width: 65px; height: 62px; cursor: pointer;">
                       <p class="donate-econ-digital-text mt-2 mb-0">
                         mjp.contab&#64;gmail.com
                       </p>
                     </div>
+                    
                     <!-- Bloque 2: Chivo y DUI -->
                     <div class="text-center">
-                      <img src="assets/chivo.png" alt="Chivo" style="width: 112px; height: 51px;">
+                      <img 
+                        src="assets/chivo.png" 
+                        alt="Chivo" 
+                        (click)="copyText('01231496-0')" 
+                        style="width: 112px; height: 51px; cursor: pointer;">
                       <p class="donate-econ-digital-text mt-2 mb-0">
                         DUI: 01231496-0
                       </p>
-                    </div>
+                    </div>                    
                   </div>
                 </div>
               </div>
@@ -143,7 +157,9 @@
         </div>
         <!-- Columna 2: Cuadro para plan $10.00 -->
         <div class="col-md-4 mb-4">
-          <div class="apadrina-box mx-auto p-3 d-flex flex-column align-items-center" style="width: 307px; height: 329px; background: rgba(54,129,211,0.09); border-radius: 35px;">
+          <div class="apadrina-box mx-auto p-3 d-flex flex-column align-items-center"
+  style="width: 307px; background: rgba(54,129,211,0.09); border-radius: 35px;"
+  >
             <img src="assets/donate5.png" alt="Perrito plan $10" style="width: 140px; height: 140px;">
             <h3 class="apadrina-amount mt-3">$10.00</h3>
             <p class="apadrina-monthly mb-1">Mensuales</p>
@@ -152,7 +168,10 @@
         </div>
         <!-- Columna 3: Cuadro para plan $5.00 -->
         <div class="col-md-4 mb-4">
-          <div class="apadrina-box mx-auto p-3 d-flex flex-column align-items-center" style="width: 307px; height: 329px; background: rgba(54,129,211,0.09); border-radius: 35px;">
+          <div
+  class="apadrina-box mx-auto p-3 d-flex flex-column align-items-center"
+  style="width: 307px; background: rgba(54,129,211,0.09); border-radius: 35px;"
+  > 
             <img src="assets/donate6.png" alt="Perrito plan $5" style="width: 153px; height: 153px;">
             <h3 class="apadrina-amount mt-3">$5.00</h3>
             <p class="apadrina-monthly mb-1">Mensuales</p>

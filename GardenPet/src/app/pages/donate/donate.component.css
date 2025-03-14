@@ -274,6 +274,7 @@
     font-size: clamp(1.25rem, 3.5vw, 1.5rem);
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    text-align: center;
     letter-spacing: 1px;
     margin-bottom: 0;
   }
@@ -342,7 +343,7 @@
 
     .donate-hero-section.hero-fixed-height {
         height: auto !important;  /* auto en móviles */
-        padding: 2rem 1rem;       /* añade padding para separar */
+        /* padding: 2rem ;       añade padding para separar */
       }
       /* La imagen se vuelve estática y ocupa el ancho completo debajo del texto */
       .donate-hero-img {
@@ -357,7 +358,7 @@
       /* Sección Donaciones Económicas en móviles */
       .donate-econ-section {
         height: auto !important;   /* Quita la altura fija en móviles */
-        padding: 2rem 1rem;
+        /*padding: 2rem 1rem;*/
         position: relative;
       }
     

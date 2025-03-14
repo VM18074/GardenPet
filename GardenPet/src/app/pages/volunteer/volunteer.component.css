@@ -1,0 +1,287 @@
+/* =====================
+   SECCIÓN HERO: "¿Quieres marcar la diferencia?"
+   ===================== */
+   .volunteer-hero-section {
+    background-color: rgba(54, 129, 211, 0.09); /* #3681D317 */
+    width: 100%;
+    position: relative;
+    /* La altura se define inline en el HTML (ej. style="height: 383px;") */
+    overflow: hidden; /* Para ocultar elementos absolutos que puedan desbordar */
+  }
+  
+  /* Título principal */
+  .volunteer-hero-title {
+    color: #160B5B;
+    font-size: 48px; /* Ajusta según tu diseño */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.48px;
+    margin-bottom: 0; /* Sin margen inferior extra */
+  }
+  
+  /* Subtítulo */
+  .volunteer-hero-subtitle {
+    color: black;
+    font-size: 20px; /* Ajusta según tu diseño */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 1rem; /* Espacio superior para separar del título */
+  }
+  
+  /* Botón (opcional) */
+  .volunteer-hero-button {
+    background-color: #DE1E36;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+  .volunteer-hero-button:hover {
+    background-color: #c9162f;
+  }
+  
+
+  /* =====================
+   SECCIÓN: "¿Quiénes pueden ser voluntarios?"
+   ===================== */
+
+/* SECCIÓN: "¿Quiénes pueden ser voluntarios?" */
+
+/* Título principal (36px) */
+.volunteer-who-title {
+    color: black;
+    font-size: 36px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  
+  /* Parte del título en color azul (#1D1486) */
+  .volunteer-who-title-blue {
+    color: #1D1486;
+  }
+  
+  /* Subtítulo (20px) */
+  .volunteer-who-subtitle {
+    color: black;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  
+  /* Contenedor de cada tarjeta (ajustamos sin altura fija para que no se desborde) */
+  .volunteer-who-card {
+    width: 100%;
+    background: rgba(54,129,211,0.09);
+    border-radius: 35px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    text-align: center;
+    /* En el HTML se definen width:312px si se desea forzar en escritorio */
+  }
+  
+  /* Imagen dentro de la tarjeta */
+  .volunteer-who-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; /* opcional */
+  }
+  
+  /* Título de la tarjeta (20px, bold) */
+  .volunteer-who-card-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Texto de la tarjeta (16px) */
+  .volunteer-who-card-text {
+    color: black;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-bottom: 0;
+    line-height: 1.3;
+  }
+  
+  /* ---------------------------
+     Media Queries (Responsivo)
+     --------------------------- */
+  /* Para pantallas menores de 768px */
+  @media (max-width: 767.98px) {
+    .volunteer-who-title {
+      font-size: 1.75rem; /* ~28px */
+    }
+    .volunteer-who-subtitle {
+      font-size: 1rem;
+    }
+    .volunteer-who-card-title {
+      font-size: 1rem;
+    }
+    .volunteer-who-card-text {
+      font-size: 0.875rem; /* 14px */
+    }
+    /* Ajustamos las tarjetas para ocupar todo el ancho */
+    .volunteer-who-card {
+      width: 90% !important; 
+      margin: 0 auto;
+      /* Eliminamos altura fija */
+      height: auto;
+    }
+  }
+  
+  /* Entre 768px y 991.98px */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .volunteer-who-title {
+      font-size: 2rem;
+    }
+    .volunteer-who-subtitle {
+      font-size: 1.125rem;
+    }
+    .volunteer-who-card-title {
+      font-size: 1.125rem;
+    }
+    .volunteer-who-card-text {
+      font-size: 1rem;
+    }
+  }
+
+/* =========================================
+   SECCIÓN: "¡Elige tu forma de ser voluntario!"
+   ========================================= */
+   .volunteer-form-section {
+    position: relative;
+    width: 100%;
+    /* En desktop, le das altura fija con style="height: 492px;" en el HTML */
+    overflow: hidden; /* Evita que la imagen absoluta se salga del contenedor */
+    background-color: white; /* o el color que requieras */
+  }
+  
+  /* Título principal (32px) */
+  .volunteer-form-title {
+    color: black;
+    font-size: 32px; /* Ajusta según tu diseño */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.6px; /* 1.60px */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Título de cada tipo de voluntario (24px) */
+  .volunteer-type-title {
+    color: black;
+    font-size: 24px; /* 24px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Texto descriptivo de cada tipo (16px) */
+  .volunteer-type-text {
+    color: black;
+    font-size: 16px; /* 16px */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin-bottom: 0;
+  }
+  
+  /* Botón "Más información" (16px, bold, sombra) */
+  .volunteer-form-button {
+    background-color: #DE1E36;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  .volunteer-form-button:hover {
+    background-color: #c9162f;
+  }
+  
+  /* Imagen anclada al borde inferior derecho en desktop */
+  .volunteer-form-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 638px; /* Ajusta según tu diseño real */
+    height: 492px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* =====================
+     MEDIA QUERIES
+     ===================== */
+  
+  /* Para pantallas menores de 768px (móviles) */
+  @media (max-width: 767.98px) {
+    .volunteer-form-section {
+      height: auto !important; /* Quita la altura fija en móviles */
+      /*padding: 2rem 0;          Da espacio vertical */
+    }
+    .volunteer-form-img {
+      position: static !important;
+      width: 100% !important;
+      height: auto !important;
+      margin-top: 1rem; /* La imagen se pone debajo del texto */
+    }
+    
+    .volunteer-form-title {
+      font-size: 1.5rem; /* Ejemplo para móviles */
+    }
+    .volunteer-type-title {
+      font-size: 1.25rem;
+    }
+    .volunteer-type-text {
+      font-size: 1rem;
+    }
+    .volunteer-form-button {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Para pantallas entre 768px y 991.98px (tablets) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .volunteer-form-title {
+      font-size: 2rem;
+    }
+    .volunteer-type-title {
+      font-size: 1.5rem;
+    }
+    .volunteer-type-text {
+      font-size: 1.125rem;
+    }
+    .volunteer-form-button {
+      font-size: 1.125rem;
+    }
+  }
+  
+  
