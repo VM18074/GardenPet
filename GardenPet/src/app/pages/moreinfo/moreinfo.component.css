@@ -55,7 +55,7 @@
     border-radius: 14px;
     width: 100%;
     height: 62px;
-    color: white;
+    color: black;
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
@@ -179,4 +179,16 @@
       font-size: 1.125rem;
     }
   }
+
+  .custom-snackbar-error {
+    background-color: #e53935 !important; /* Fondo rojo intenso para error */
+    color: #ffffff !important;              /* Texto blanco */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 1rem;                          /* Espaciado interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+    text-align: center;
+  }
+  
   
