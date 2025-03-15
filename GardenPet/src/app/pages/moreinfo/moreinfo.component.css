@@ -55,7 +55,7 @@
     border-radius: 14px;
     width: 100%;
     height: 62px;
-    color: black;
+    color: white;
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
@@ -111,7 +111,7 @@
   }
   
   .cause-select-custom select option {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
     font-weight: 900;

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-moreinfo',
@@ -8,7 +8,18 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class MoreinfoComponent {
 
-  constructor() {}
+  constructor(private snackBar: MatSnackBar) {}
+
+
+    // Función para mostrar un mensaje de error
+    showError(message: string): void {
+      this.snackBar.open(message, 'Cerrar', {
+        duration: 3000, // Duración en milisegundos
+        horizontalPosition: 'center', // Opciones: 'start', 'center', 'end', 'left', 'right'
+        verticalPosition: 'top', // Opciones: 'top', 'bottom'
+        panelClass: ['custom-snackbar-error'] // Clase CSS personalizada (opcional)
+      });
+    }
 
   /**
    * Función para enviar el correo electrónico.
@@ -85,10 +96,7 @@ ${nombre}`;
 
     if (missingFields.length > 0) {
       // Muestra un toast de error con Toastr
-      window.console.error(
-        `Por favor, completa los siguientes campos: ${missingFields.join(", ")}`,
-        "Campos incompletos"
-      );
+      this.showError(`Por favor, completa los siguientes campos: ${missingFields.join(", ")}`);
       return;
     }
 
