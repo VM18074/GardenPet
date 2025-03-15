@@ -1,1 +1,109 @@
-<p>moreinfo works!</p>
+<!-- SECCIÓN: "¡Únete a la causa!" -->
+<div
+  class="join-cause-section position-relative"
+  style="height: 883px;" 
+>
+  <div class="container h-100">
+    <div class="row align-items-center h-100">
+      
+      <!-- Columna Izquierda (espacio para imagen en desktop) -->
+      <div class="col-md-6 d-none d-md-block">
+        <!-- Reservado para la imagen absoluta -->
+      </div>
+      
+      <!-- Columna Derecha: "Formulario" -->
+      <div class="col-md-6">
+        
+        <!-- Título principal (48px) -->
+        <h2 class="join-cause-title">
+          ¡Únete a la causa!
+        </h2>
+        
+        <!-- Subtítulo (16px) -->
+        <p class="join-cause-subtitle mt-2">
+          Adopta, Apadrina, Dona o Sé Voluntario en Mi Jardín de Peludos
+          <span style="color: red;">&#10084;</span>
+        </p>
+        
+        <!-- "Formulario" estilo divs -->
+        <div class="join-cause-form mt-4">
+          <div class="row">
+            <!-- Fila 1: Nombre y Apellido -->
+            <div class="col-12 col-md-6 mb-3">
+              <div
+                class="cause-input"
+                data-placeholder="Nombre*"
+                contenteditable="true"
+                style="width:292px; height:62px;"
+              ></div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <div
+                class="cause-input"
+                data-placeholder="Apellido*"
+                contenteditable="true"
+                style="width:292px; height:62px;"
+              ></div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <!-- Fila 2: Teléfono y "Información para adoptar" -->
+            <div class="col-12 col-md-6 mb-3">
+              <div
+                class="cause-input"
+                data-placeholder="Número de teléfono*"
+                contenteditable="true"
+                style="width:292px; height:62px;"
+              ></div>
+            </div>
+            <div class="dropdown cause-select-custom" style="width:292px; height:62px;">
+                <select id="dropdownAdopt" class="form-select">
+                  <option value="" disabled selected>Información para adoptar*</option>
+                  <option value="mas-info1">Más información de voluntariado</option>
+                  <option value="mas-info2">Más información de donaciones</option>
+                  <option value="mas-info3">Más información de visitas</option>
+                  <option value="mas-info4">Más información de adopción</option>
+                  <option value="mas-info5">Más información de apadrinamiento</option>
+                </select>
+              </div>              
+          </div>
+          
+          <div class="row">
+            <!-- Fila 3: Correo electrónico (604×62) -->
+            <div class="col-12 mb-3">
+              <div
+                class="cause-input"
+                data-placeholder="Correo electrónico*"
+                contenteditable="true"
+                style="width:604px; height:62px;"
+              ></div>
+            </div>
+          </div>
+          
+          <!-- Botón: "Enviar información" -->
+          <div class="row">
+            <div class="col-12">
+                <button 
+                type="button" 
+                class="btn cause-submit-button mt-3"
+                (click)="validateAndSendEmail()">
+                Enviar información
+                </button>                  
+            </div>
+          </div>
+        </div><!-- Fin join-cause-form -->
+        
+      </div><!-- Fin col-md-6 -->
+      
+    </div><!-- row -->
+  </div><!-- container -->
+  
+  <!-- Imagen anclada al borde inferior izquierdo en escritorio -->
+  <img
+    src="assets/moreinf1.png"
+    alt="Persona con perrito"
+    class="join-cause-left-img"
+  />
+</div>
+<!-- Fin SECCIÓN "¡Únete a la causa!" -->
