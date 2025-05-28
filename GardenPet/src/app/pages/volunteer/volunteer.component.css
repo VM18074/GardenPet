@@ -188,10 +188,10 @@
   /* Título de cada tipo de voluntario (24px) */
   .volunteer-type-title {
     color: black;
-    font-size: 24px; /* 24px */
+    font-size: 20px; /* 24px */
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1.2px;
     margin-bottom: 0.25rem;
   }
@@ -199,10 +199,10 @@
   /* Texto descriptivo de cada tipo (16px) */
   .volunteer-type-text {
     color: black;
-    font-size: 16px; /* 16px */
+    font-size: 14px; /* 16px */
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.8px;
     margin-bottom: 0;
   }

@@ -44,7 +44,7 @@ export class MoreinfoComponent {
     // Diseña el cuerpo del mensaje con un formato acorde al tema canino
     const emailBody = `Hola,
 
-Mi nombre es ${nombre} ${apellido} y estoy interesado en obtener más información sobre "${subjectText}" en Mi Jardín de Peludos, una organización comprometida con el bienestar de nuestros amigos caninos.
+Mi nombre es ${nombre} ${apellido} y estoy interesado en conocer "${subjectText}" en Mi Jardín de Peludos, una organización comprometida con el bienestar de nuestros amigos caninos.
 
 Mis datos de contacto:
 Teléfono: ${telefono}
@@ -57,7 +57,7 @@ Agradezco enormemente la labor que realizan y espero su respuesta para poder col
 ${nombre}`;
 
     // Define el destinatario (ajusta según corresponda)
-    const destinatario = "javiervelasquez085@gmail.com";
+    const destinatario = "delacalleamijardin@gmail.com";
 
     // Crea el enlace mailto con el asunto y el cuerpo codificados
     const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(emailBody)}`;
